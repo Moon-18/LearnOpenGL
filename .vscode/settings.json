@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "glad.h": "c",
+    "stdio.h": "c",
+    "stdlib.h": "c",
+    "iostream": "cpp"
+  }
+}
