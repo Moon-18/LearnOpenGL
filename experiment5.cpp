@@ -1,4 +1,4 @@
-//按鼠标左键确定一系列点,回车进行绘制
+// use:按鼠标左键确定一系列点,回车进行绘制
 #include <GLFW/glfw3.h>
 #include <bits/stdc++.h>
 #include <windows.h>
@@ -42,7 +42,7 @@ void showBezier() {
 void createBezier() { //绘制曲线
     int len = points.size();
     vector<pdd> v(len + 1, {0, 0});
-    for (double t = 0; t <= 1; t += 0.05) {//精细程度
+    for (double t = 0; t <= 1; t += 0.05) { //精细程度
         for (int i = 1; i < len; i++) {
             for (int j = 0; j < len - i; j++) {
                 if (i == 1) { //第一次迭代,由已知控制点计算

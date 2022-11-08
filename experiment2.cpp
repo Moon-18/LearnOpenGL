@@ -1,4 +1,4 @@
-//按鼠标左键确定一系列点,按回车进行填充,按delete擦除全部图形
+//use:按鼠标左键确定一系列点,按回车进行填充,按delete擦除全部图形
 #include <GLFW/glfw3.h>
 #include <bits/stdc++.h>
 #include <windows.h>
@@ -8,7 +8,6 @@
 #define length 0.02f
 #define gap 20
 #define pdd pair<double, double>
-const int delay = 1; //填充延迟
 using namespace std;
 struct edge {
     double x;     // 下端点的x坐标

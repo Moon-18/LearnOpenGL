@@ -1,12 +1,4 @@
-/*INTRODUCTION
-// Mouse:
-//	- LEFT button:
-//		1. draw a new line
-//		2. choose the endpoint to modify a line
-// Keyboard:
-//  - DELETE:
-//      clear the window
-*/
+//use: 鼠标点击-起点；鼠标释放-终点；绘制一条直线
 #include <GLFW/glfw3.h>
 #include <bits/stdc++.h>
 

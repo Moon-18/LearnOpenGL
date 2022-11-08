@@ -1,3 +1,4 @@
+// use:按鼠标左键确定一系列点，右键添加矩形（最多一个矩形），按回车进行切割,按delete，backspace擦除
 #include <GLFW/glfw3.h>
 #include <bits/stdc++.h>
 #include <windows.h>

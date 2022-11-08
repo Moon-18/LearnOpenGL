@@ -1,4 +1,4 @@
-//按鼠标左键确定一系列点,按回车进行填充,按delete擦除全部图形
+//use:按鼠标左键确定直线，右键添加矩形（最多一个矩形），按回车进行填充,按delete，backspace擦除
 #include <GLFW/glfw3.h>
 #include <bits/stdc++.h>
 #include <windows.h>
